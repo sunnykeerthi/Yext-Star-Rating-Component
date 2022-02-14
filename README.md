@@ -1,6 +1,6 @@
 # Guide
 
-## Note: Please make sure the ratings value in your KG is of type *Number*
+## Note: Please make sure the *ratings* variable in your KG is of type *Number*
 
 ## template.hbs
 
