@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Add this line to the first line of the card html file-->
+ 
+ 
+<div class="HitchhikerProductProminentImage">
+ {{> rating}}
+</div>
+ 
+{{#*inline 'rating'}} 
+    <div class="star-rating" title="{{card.ratingPercentage}}%">
+        <div class="back-stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+
+            <div class="front-stars" style="width: {{card.ratingPercentage}}%">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+        </div>
+        <span class="rating-figure"> {{#if card.rating}}{{card.rating}}{{/if}} ({{card.noOfVotes}})</span>
+    </div> 
+{{/inline}}
