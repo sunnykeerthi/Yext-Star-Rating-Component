@@ -1,0 +1,51 @@
+.font-awesome {
+  font-family: FontAwesome;
+  display: inline-block;
+}
+
+.rating-figure {
+  margin-left: 0.5em;
+}
+
+.font-awesome-positioned {
+  font-family: FontAwesome;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+}
+
+.front-stars,
+.back-stars,
+.star-rating {
+  display: flex;
+}
+
+.star-rating {
+  align-items: center;
+  font-size: 1.35em;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.star-rating .fa {
+  margin-left: 0.5em;
+}
+
+.back-stars {
+  color: white; /* background Color*/
+  position: relative;
+  text-shadow: 0 0 1px black;
+}
+
+.fa {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black; /* border color*/
+}
+
+.front-stars {
+  color: black; /* fill color*/
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  transition: all 0.5s;
+}
