@@ -39,6 +39,7 @@ Inside `return {}` create a new variable `ratingPercentage`(or whatever, the sam
        noOfVotes: profile.c_noOfVotes ? profile.c_noOfVotes: 0, //This holds my number of votes
      }
 ## answers.scss
+
 Paste the data from `answers.scss` file above in the sandbox's `answers.css` file. (`**Please paste the content, do not override the existing**`). Here are the changes to update the branding (added the same as comments in `answers.scss` file).
 
  - To change the star background color, update `.back-stars color` attribute (currently setr to white).
